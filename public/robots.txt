@@ -1,9 +1,4 @@
 User-agent: *
 Allow: /
 
-# Block build artifacts
-Disallow: /src/
-Disallow: /*.json$
-
-# Sitemap location
-Sitemap: https://www.energosoyuz-aziya.kz/sitemap.xml
+Sitemap: https://www.energosoyuz.com/sitemap.xml
