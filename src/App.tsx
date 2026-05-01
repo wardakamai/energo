@@ -47,7 +47,7 @@ export default function App() {
       <Navbar activePage={activePage} setActivePage={setActivePage} />
 
       {/* Push content below both bars */}
-      <main style={{ flex: 1, paddingTop: `${OFFSET}px` }}>
+      <main style={{ flex: 1, paddingTop: `${OFFSET}px`, background: '#0a0a0a' }}>
         <AnimatePresence mode="wait">
           <motion.div
             key={activePage}
