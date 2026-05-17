@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Block WordPress ghost paths (site migrated from WordPress — these paths do not exist)
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+Disallow: /feed/
+Disallow: /caf/
+Disallow: /?p=
+Disallow: /?page_id=
+Disallow: /?feed=
+Disallow: /?s=
+Disallow: /?author=
+Disallow: /?replytocom=
+
+Sitemap: https://www.energosoyuz.com/sitemap.xml
