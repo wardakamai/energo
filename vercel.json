@@ -9,30 +9,6 @@
       "has": [{ "type": "host", "value": "energosoyuz.com" }],
       "destination": "https://www.energosoyuz.com/:path*",
       "permanent": true
-    },
-    {
-      "source": "/",
-      "has": [{ "type": "query", "key": "p" }],
-      "destination": "https://www.energosoyuz.com/",
-      "permanent": true
-    },
-    {
-      "source": "/",
-      "has": [{ "type": "query", "key": "page_id" }],
-      "destination": "https://www.energosoyuz.com/",
-      "permanent": true
-    },
-    {
-      "source": "/",
-      "has": [{ "type": "query", "key": "feed" }],
-      "destination": "https://www.energosoyuz.com/",
-      "permanent": true
-    },
-    {
-      "source": "/",
-      "has": [{ "type": "query", "key": "replytocom" }],
-      "destination": "https://www.energosoyuz.com/",
-      "permanent": true
     }
   ],
   "rewrites": [
