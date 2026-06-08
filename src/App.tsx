@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
+import WhatsAppButton from './components/WhatsAppButton';
 import Topbar from './components/Topbar';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -66,6 +67,7 @@ export default function App() {
         </AnimatePresence>
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
